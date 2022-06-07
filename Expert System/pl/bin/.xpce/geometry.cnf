@@ -1,0 +1,17 @@
+/*  XPCE configuration file for "persistent_frame"
+    Saved Wed Jun 18 00:48:18 2014 by Gena
+*/
+
+configversion(1).
+[persistent_frame].
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option lines starting with a `%' indicate      %
+% the value is equal to the application default. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+/* (X-)geometry for persistent frames */
+history/geometry/pui_manual =   '1039x437+-1023+297'.
+
+/* Sub-window layout for persistent frames */
+history/subwindow_layout/pui_manual = layout(*, [*, layout(*, [200, *]), *]).
